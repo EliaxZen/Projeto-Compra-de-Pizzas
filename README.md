@@ -8,7 +8,6 @@ link(https://compradepizzas.netlify.app/)
 ![Buy Pizza Project with JS (1)](https://github.com/EliaxZen/Projeto-Compra-de-Pizzas/assets/132005740/e29f5113-c887-4066-b37b-bea57186464b)
 
 # DETALHES
+https://compradepizzas.netlify.app/
 
 
-# ATENÇÃO
-O projeto ainda está em desenvolvimento.
