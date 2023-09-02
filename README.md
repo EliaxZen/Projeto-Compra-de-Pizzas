@@ -10,5 +10,5 @@ link(https://compradepizzas.netlify.app/)
 # DETALHES
 
 
-#ATENÇÃO
+# ATENÇÃO
 O projeto ainda está em desenvolvimento.
