@@ -419,7 +419,6 @@ background-color: #ffffff;
   }
   .pizza-area {
     grid-template-columns: repeat(2, 1fr);
-    display: block;
   }
   .pizza-item {
     max-width: 100%;
