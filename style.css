@@ -418,6 +418,7 @@ background-color: #ffffff;
     flex-direction: column;
   }
   .pizza-area {
+    grid-template-columns: repeat(2, 1fr);
     display: block;
   }
   .pizza-item {
