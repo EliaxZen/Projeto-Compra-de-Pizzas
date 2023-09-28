@@ -113,6 +113,7 @@ h1 {
   margin-top: -25px;
   transition: all ease 0.2s;
   opacity: 0.999999;
+  animation: heartBeat 2s infinite;
 }
 .pizza-item a:hover .pizza-item--add {
   transition: all 0.5s;
