@@ -161,6 +161,7 @@ h1 {
   overflow-y: auto;
 }
 .pizzaWindowBody {
+    animation: backInDown 0.5s;
   width: 900px;
   background-color: #ff7300;
   border-radius: 10px;
