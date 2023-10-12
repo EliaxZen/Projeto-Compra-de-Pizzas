@@ -1,4 +1,5 @@
 let cart = [];
+let arrayOfNames = [];
 let modalQt = 1;
 let modalKey = 0;
 
@@ -136,6 +137,9 @@ function updateCart() {
       let pizzaName = `${pizzaItem.name} (${pizzaSizeName})`;
 
       cartItem.querySelector("img").src = pizzaItem.img;
+
+      arrayOfNames.push(`${pizzaItem.name} (${pizzaSizeName}) Qt.${cart[i].qt}`);
+
       cartItem.querySelector(".cart--item-nome").innerHTML = pizzaName;
       cartItem.querySelector(".cart--item--qt").innerHTML = cart[i].qt;
       cartItem
@@ -156,6 +160,7 @@ function updateCart() {
         });
 
       c(".cart").append(cartItem);
+
     }
 
     desconto = subtotal * 0.1;
@@ -171,7 +176,7 @@ function updateCart() {
 }
 
 c('.cart--finalizar').addEventListener("click", () => {
-  setTimeout(()=>{
-    window.location.reload(true);
-  }, 100);
+  let newArray = arrayOfNames.join("%20");
+  const url = `https://api.whatsapp.com/send?phone=556199415-6912&text=${newArray}`;
+  window.open(url, '_blank');
 });
